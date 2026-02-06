@@ -13,7 +13,7 @@ from utils import get_provider, fmt_usd
 st.set_page_config(
     layout="wide",
     page_title="Polymarket Edge Finder",
-    page_icon=":chart_with_upwards_trend:",
+    page_icon="\U0001F4C8",
 )
 
 # ==========================================================================
@@ -46,9 +46,9 @@ with st.sidebar:
     provider = get_provider()
     connected = provider.validate_connection()
     if connected:
-        st.success("API Connected", icon=":white_check_mark:")
+        st.success("API Connected", icon="\u2705")
     else:
-        st.error("API Disconnected", icon=":x:")
+        st.error("API Disconnected", icon="\u274c")
 
     st.divider()
 
