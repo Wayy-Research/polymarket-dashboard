@@ -1,0 +1,4 @@
+wrdata>=0.1.6
+streamlit>=1.30.0
+plotly>=5.18.0
+feedparser>=6.0.0
