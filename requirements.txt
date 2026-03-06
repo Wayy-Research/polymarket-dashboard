@@ -1,4 +1,0 @@
-wrdata @ git+https://github.com/Wayy-Research/wrdata.git@main
-streamlit>=1.30.0
-plotly>=5.18.0
-feedparser>=6.0.0
